@@ -3,7 +3,7 @@
     <v-card class="flex" flat tile>
       <v-card-title class="red accent-4 body-2 py-1">
         <strong class="subheading"
-          >Get connected with us on social networks!</strong
+          >Te gusta nuestra aplicación web? Siguenos en nuestras redes sociales para estar al día</strong
         >
 
         <v-spacer></v-spacer>
