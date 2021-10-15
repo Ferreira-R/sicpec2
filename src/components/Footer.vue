@@ -1,7 +1,7 @@
 <template>
   <v-footer dark padless>
     <v-card class="flex" flat tile>
-      <v-card-title class="red accent-4 body-2 py-1">
+      <v-card-title class="blue-grey darken-3 body-2 py-1">
         <strong class="subheading"
           >Siguenos en nuestras redes sociales para mantenerte informado de las últimas novedades</strong
         >

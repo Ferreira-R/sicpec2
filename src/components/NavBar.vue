@@ -7,7 +7,7 @@
       absolute
       temporary
       app
-      class="red accent-4"
+      class="blue-grey darken-3"
     >
       <v-list dense nav>
         <v-list-item
@@ -32,7 +32,7 @@
     <!-- BARRA SUPÉRIOR -->
     <v-app-bar
       app
-      color="red accent-4"
+      color="blue-grey darken-3"
       dark
       prominent
       shrink-on-scroll
@@ -52,7 +52,7 @@ export default {
     return {
       drawer: false,
       items: [
-        { title: "Hogar", icon: "mdi-f", name: "f" },
+        { title: "Hogar", icon: "mdi-home", name: "Home" },
         {
           title: "Agendamiento",
           icon: "mdi-clipboard-list",
@@ -61,7 +61,7 @@ export default {
         {
           title: "Integrantes",
           icon: "mdi-account-group",
-          name: "Trainers",
+          name: "Integrantes",
         },
       ],
     };
