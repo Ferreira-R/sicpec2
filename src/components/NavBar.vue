@@ -39,6 +39,7 @@
       fade-img-on-scroll
       scroll-threshold="300"
       extension-height="100"
+      src="../assets/Bar Upper.jpg"
     >
       <v-app-bar-nav-icon @click="drawer = !drawer"> </v-app-bar-nav-icon>
     </v-app-bar>
@@ -51,14 +52,14 @@ export default {
     return {
       drawer: false,
       items: [
-        { title: "Home", icon: "mdi-home", name: "Home" },
+        { title: "Hogar", icon: "mdi-f", name: "f" },
         {
-          title: "Pokemons List",
+          title: "Agendamiento",
           icon: "mdi-clipboard-list",
           name: "PokemonsList",
         },
         {
-          title: "Trainers",
+          title: "Integrantes",
           icon: "mdi-account-group",
           name: "Trainers",
         },

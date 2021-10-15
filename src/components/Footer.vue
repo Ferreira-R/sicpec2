@@ -3,7 +3,7 @@
     <v-card class="flex" flat tile>
       <v-card-title class="red accent-4 body-2 py-1">
         <strong class="subheading"
-          >Te gusta nuestra aplicación web? Siguenos en nuestras redes sociales para estar al día</strong
+          >Siguenos en nuestras redes sociales para mantenerte informado de las últimas novedades</strong
         >
 
         <v-spacer></v-spacer>
@@ -16,7 +16,7 @@
       </v-card-title>
 
       <v-card-text class="py-2 white--text text-center caption">
-        {{ new Date().getFullYear() }} — <strong>Pokemon Trainers Wiki</strong>
+        {{ new Date().getFullYear() }} — <strong>Sistema de Información de Clases Particulares Especializadas y Personalizadas - SICPEC</strong>
       </v-card-text>
     </v-card>
   </v-footer>

@@ -4,10 +4,10 @@
       <v-sheet height="64">
         <v-toolbar flat color="white">
           <v-btn color="primary" dark @click.stop="dialog = true">
-            New Event
+            Nuevo Evento
           </v-btn>
           <v-btn outlined class="mr-4" @click="setToday">
-            Today
+            Ir a Hoy
           </v-btn>
           <v-btn fab text small @click="prev">
             <v-icon small>mdi-chevron-left</v-icon>
@@ -91,27 +91,27 @@
               <v-text-field
                 v-model="name"
                 type="text"
-                label="event name (required)"
+                label="NOMBRE DEL EVENTO (REQUERIDO)"
               ></v-text-field>
               <v-text-field
                 v-model="details"
                 type="text"
-                label="detail"
+                label="DETALLE"
               ></v-text-field>
               <v-text-field
                 v-model="start"
                 type="date"
-                label="start (required)"
+                label="FECHA DE INICIO (REQUERIDO)"
               ></v-text-field>
               <v-text-field
                 v-model="end"
                 type="date"
-                label="end (required)"
+                label="FECHA DE FIN (REQUERIDO)"
               ></v-text-field>
               <v-text-field
                 v-model="color"
                 type="color"
-                label="color (click to open color menu)"
+                label="COLOR (CLICK PARA ABRIR LA PALETA DE COLORES)"
               ></v-text-field>
               <v-btn
                 type="submit"
