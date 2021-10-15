@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home/Home.vue";
 import Integrantes from "../views/Integrantes/Integrantes.vue";
+import Agendamiento from "../views/Agendamiento/Agendamiento.vue";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/Integrantes",
     name: "Integrantes",
     component: Integrantes,
+  },
+  {
+    path: "/Agendamiento",
+    name: "Agendamiento",
+    component: Agendamiento,
   },
 ];
 
