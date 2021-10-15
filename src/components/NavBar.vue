@@ -56,7 +56,7 @@ export default {
         {
           title: "Agendamiento",
           icon: "mdi-clipboard-list",
-          name: "PokemonsList",
+          name: "Agendamiento",
         },
         {
           title: "Integrantes",
