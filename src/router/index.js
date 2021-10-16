@@ -10,7 +10,7 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home,
+    component: Agendamiento,
   },
   {
     path: "/Integrantes",
@@ -20,7 +20,7 @@ const routes = [
   {
     path: "/Agendamiento",
     name: "Agendamiento",
-    component: Agendamiento,
+    component: Home,
   },
 ];
 
